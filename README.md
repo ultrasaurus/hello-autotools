@@ -35,3 +35,28 @@ We used these 3rd party macros when we wrote configure.ac earlier
 ### autotools cache files
 * autom4te.cache/
 
+## Build instructions
+```
+cd hello
+./configure
+make
+make install
+```
+
+### OR even better
+keep all the interim build files in their own directory
+```
+cd hello
+mkdir build 
+cd build
+../configure
+make
+make install
+```
+
+## Run the program
+$ hello
+Hello World!
+This is hello 0.1.
+
+
